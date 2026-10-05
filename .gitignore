@@ -1,0 +1,27 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# DVC local cache and temporary files
+.dvc/cache/
+.dvc/tmp/
+
+# TensorFlow models will be handled by DVC
+*.h5
+
+# Credentials and secrets
+client_secrets.json
+gdrive-user-credentials.json
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
