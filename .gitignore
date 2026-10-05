@@ -25,3 +25,10 @@ Thumbs.db
 
 # macOS
 .DS_Store
+
+# Machine learning data artifacts
+data/raw/
+data/processed/
+
+# Generated model artifacts
+models/
