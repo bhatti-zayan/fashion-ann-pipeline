@@ -32,3 +32,6 @@ data/processed/
 
 # Generated model artifacts
 models/
+
+# Generated evaluation artifacts
+reports/
