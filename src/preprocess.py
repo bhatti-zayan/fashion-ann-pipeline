@@ -17,8 +17,9 @@ def main():
     x_test = np.load("data/raw/x_test.npy")
     y_test = np.load("data/raw/y_test.npy")
     print("Normalizing pixel values...")
-    x_train = x_train.astype("float32") / 255.0
-    x_test = x_test.astype("float32") / 255.0
+    # Teammate approach: normalize and round pixel values
+    x_train = np.round(x_train.astype("float32") / 255.0, 4)
+    x_test = np.round(x_test.astype("float32") / 255.0, 4)
     print("Splitting training and validation data...")
     x_train, x_val, y_train, y_val = train_test_split( x_train, y_train, test_size=validation_size, random_state=seed,stratify=y_train)
 
