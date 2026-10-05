@@ -8,3 +8,7 @@ The project demonstrates source-code version control with git, data and model ve
 
 ## Project Note
 This repository contains the Fashion-MNIST ANN MLOps assignment.
+
+## Development Status
+
+The modular ANN pipeline is currently being developed on the dev branch.
